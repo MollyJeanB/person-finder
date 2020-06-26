@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Nav } from "../components/Nav";
-import { SearchHeader } from '../components/SearchHeader'
+import { SearchHeader } from "../components/SearchHeader";
 
 export const Container = styled.main`
   max-width: 575px;
@@ -9,7 +9,7 @@ export const Container = styled.main`
   padding: 165px 20px 20px;
 
   @media only screen and (max-width: 720px) {
-      padding-top: 100px;
+    padding-top: 100px;
   }
 `;
 
